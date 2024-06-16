@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 import Home from "./views/home";
 import injectContext from "./store/appContext";
-
+import { Single } from "./single";
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 
@@ -19,7 +19,7 @@ const Layout = () => {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/characters" element={<Characters />} />
+            {/* <Route path="/characters" element={<Characters />} /> */}
             <Route path="*" element={<div>404</div>} />
 
 

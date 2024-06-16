@@ -13,5 +13,3 @@
 - Updated all libraries to the latest
 - Now the prettier us being used as a vscode plugin instead.
 - Dropped eslint (for now)
-
-

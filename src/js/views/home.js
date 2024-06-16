@@ -3,7 +3,7 @@ import "../../styles/home.css";
 import { getPeople } from "../../api";
 import { getIdFromUrl } from "../../utils";
 import { Carousel } from 'react-bootstrap';
-import Layout from "./layout.js";
+
 
  const Home = () => {
     const [page, setPage] = useState(null);
